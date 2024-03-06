@@ -1,25 +1,17 @@
 body {
-    width: 1920px;
-    height: 1080px;
     position: relative;
     background: #33afa9;
 }
 
-.navbar {
+nav {
     width: 1120px;
     height: 35px;
     left: 160px;
-    top: 102px;
-    position: absolute;
+    top: 50px;
+    position: relative;
     justify-content: center;
     align-items: center;
     display: inline-flex;
-}
-
-.menu {
-    width: 1120px;
-    height: 35px;
-    position: relative
 }
 
 .about {
@@ -91,16 +83,16 @@ body {
     word-wrap: break-word
 }
 
-.footer {
+footer {
     width: 1120px;
     height: 20px;
     left: 161px;
-    top: 967px;
-    position: absolute;
+    top: 600px;
+    position: relative;
 }
 
 .name {
-    width: 279px;
+    width: 300px;
     height: 20px;
     left: 0px;
     top: 0px;
@@ -128,7 +120,7 @@ body {
 }
 
 .linkedin {
-    width: 80px;
+    width: 85px;
     height: 20px;
     left: 1040px;
     top: 0px;
@@ -145,7 +137,7 @@ body {
     width: 858px;
     height: 280px;
     left: 358px;
-    top: 383px;
+    top: 200px;
     position: absolute;
 }
 
