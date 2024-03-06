@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+span {
+    text-decoration: underline;
+}
+
 .about {
     width: 58.53px;
     height: 20px;
@@ -91,7 +95,7 @@ footer {
     width: 1120px;
     height: 20px;
     left: 161px;
-    top: 600px;
+    top: 1600px;
     position: relative;
 }
 
@@ -137,37 +141,126 @@ footer {
     word-wrap: break-word;
 }
 
-.content {
-    width: 858px;
-    height: 280px;
-    left: 358px;
-    top: 200px;
-    position: absolute;
+.Project1 {
+    width: 1120px; 
+    height: 473px; 
+    left: 160px; 
+    top: 220px; 
+    position: absolute
 }
 
-.text {
-    width: 576px;
-    height: 151px;
-    left: 282px;
-    top: 129px;
-    position: absolute;
-    color: #17252a;
-    font-size: 32px;
-    font-family: DM Sans;
-    font-weight: 400;
-    line-height: 37.44px;
-    word-wrap: break-word;
+.Project2 {
+    width: 1120px; 
+    height: 473px; 
+    left: 160px; 
+    top: 888px; 
+    position: absolute
 }
 
-.title {
-    width: 256px;
-    height: 129px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    font-size: 60px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 58.32px;
-    word-wrap: break-word;
+.ProjectName {
+    width: 326.21px; 
+    height: 19px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    color: #17252A; 
+    font-size: 18px; 
+    font-family: DM Sans; 
+    font-weight: 500; 
+    line-height: 21.87px; 
+    word-wrap: break-word
+}
+
+.Text1 {
+    width: 356px; 
+    height: 138px; 
+    left: 0px; 
+    top: 44px; 
+    position: absolute; 
+    color: #17252A; 
+    font-size: 18px; 
+    font-family: DM Sans; 
+    font-weight: 400; 
+    line-height: 21.87px; 
+    word-wrap: break-word
+}
+
+.Text2 {
+    width: 315px; 
+    height: 58px; 
+    left: 0px; 
+    top: 213px; 
+    position: absolute; 
+    color: #17252A; 
+    font-size: 14px; 
+    font-family: DM Sans; 
+    font-weight: 400; 
+    line-height: 17.01px; 
+    word-wrap: break-word
+}
+
+.Link {
+    width: 326.21px; 
+    height: 20px; 
+    left: 0px; 
+    top: 347px; 
+    position: absolute; 
+    color: #17252A; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    text-decoration: underline; 
+    line-height: 21.87px; 
+    word-wrap: break-word
+}
+
+.Image {
+    width: 575px; 
+    height: 323px; 
+    left: 545px; 
+    top: 0px; 
+    position: absolute; 
+    border-radius: 15px
+}
+
+.Seperator {
+    width: 1115.06px; 
+    height: 0px; 
+    left: 7.91px; 
+    top: 473px; 
+    position: absolute; 
+    border: 1.50px #17252A solid
+}
+
+.ProjectIncoming {
+    width: 273px; 
+    height: 60px; 
+    left: 576px; 
+    top: 1450px; 
+    position: absolute
+}
+
+.Rectangle {
+    width: 273px; 
+    height: 60px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    opacity: 0.25; 
+    background: #DEF2F1; 
+    border-radius: 15px
+}
+
+.Text3 {
+    width: 258px; 
+    height: 22px; 
+    left: 15px; 
+    top: 20px; 
+    position: absolute; 
+    color: #17252A; 
+    font-size: 18px; 
+    font-family: DM Sans; 
+    font-weight: 500; 
+    line-height: 21.87px; 
+    word-wrap: break-word
 }
