@@ -1,173 +1,100 @@
-body {
-    position: relative;
-    background: #33afa9;
+html, body {
+    margin: 0; padding: 0;
+    font-family: DM Sans;
+    background-color: #33afa9;
+}
+
+header {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #17252a;
 }
 
 nav {
-    width: 1120px;
-    height: 35px;
-    left: 160px;
-    top: 50px;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
+    float: right;
+    padding-top: 10px;
 }
 
-a {
+nav li a {
+    color: #17252a;
     text-decoration: none;
 }
 
-.about {
-    width: 58.53px;
-    height: 20px;
-    left: 885px;
-    top: 13px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word
+nav li a:hover {
+    color: #2b4350;
 }
 
-.contact {
-    width: 77.38px;
-    height: 20px;
-    left: 1042.62px;
-    top: 13px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
+nav #active a {
+    text-decoration: underline;
 }
 
-.work {
-    width: 49.6px;
-    height: 20px;
-    left: 735.09px;
-    top: 13px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
+nav ul, #footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
 }
 
-.portfolio {
-    width: 131px;
-    height: 35px;
-    padding-right: 1px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    color: #17252a;
-    font-size: 32px;
-    font-family: DM Sans;
-    font-weight: 700;
-    line-height: 38.4px;
-    word-wrap: break-word
+nav li, #footer-links li {
+    margin: 0 5px;
+    display: inline-block;
 }
 
 footer {
-    width: 1120px;
-    height: 20px;
-    left: 161px;
-    top: 600px;
-    position: relative;
-}
-
-.name {
-    width: 300px;
-    height: 20px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
+    padding: 50px 30px;
     color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
+    font-size: .8em;
+    margin-top: 30px;
 }
 
-.github {
-    width: 69px;
-    height: 20px;
-    left: 916px;
-    top: 0px;
-    position: absolute;
+footer #footer-links {
+    float: right;
+    text-align: right;
+}
+
+footer #footer-links a {
+    text-decoration: none;
     color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
 }
 
-.linkedin {
-    width: 85px;
-    height: 20px;
-    left: 1040px;
-    top: 0px;
-    position: absolute;
-    color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
-}
-
-.content {
-    width: 858px;
-    height: 280px;
-    left: 358px;
-    top: 200px;
-    position: absolute;
-}
-
-.text {
-    width: 576px;
-    height: 151px;
-    left: 282px;
-    top: 129px;
-    position: absolute;
-    color: #17252a;
-    font-size: 32px;
-    font-family: DM Sans;
-    font-weight: 400;
-    line-height: 37.44px;
-    word-wrap: break-word;
+footer #footer-links a:hover {
+    color: #2b4350;
 }
 
 .title {
-    width: 256px;
-    height: 129px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    font-size: 60px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 58.32px;
-    word-wrap: break-word;
+    margin-top: 50px;
+}
+
+#top-3 {
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 860px) {
+    .container {
+        width: 500px;
+    } 
+}
+  
+@media all and (max-width: 560px) {
+    .container {
+      width: 100%;
+    }
+}
+
+@media all and (max-width: 360px) {
+    /* Header */
+    header .container { text-align: center; }
+    nav { float: none; }
+    
+    /* Footer */
+    footer .container { text-align: center; }
+    footer #footer-links { float: none; text-align: center; }
 }

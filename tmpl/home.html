@@ -4,34 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link href="https://fonts.cdnfonts.com/css/dm-sans" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/dm-sans" />
     <link rel="stylesheet" href="../static/home.css" />
     <link rel="sortcut icon" href="../img/logo.png" />
   </head>
 
-  <nav>
-    <a class="portfolio" href="../tmpl/home.html">Portfolio.</a>
-    <a class="work" href="../tmpl/work.html">Work</a>
-    <div class="about">About</div>
-    <div class="contact">Contact</div>
-  </nav>
-
   <body>
-    <div class="content">
+    <header>
+      <div class="container">
+
+        <div class="logo"><a href="../tmpl/home.html">Portfolio.</a></div>
+
+        <nav>
+          <ul>
+            <li><a href="../tmpl/work.html">Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="top-3" class="container">
       <div class="title">
         <span style="color: #def2f1">Hello, </span
         ><span style="color: #17252a">I’m Thibault.<br /></span>
       </div>
+
       <div class="text">
         A current computer science student who is trying to specialize in IT
         development.<br /><br />Welcome on my portfolio.<br /><br />
       </div>
-    </div>
-  </body>
+    </section>
 
-  <footer>
-    <div class="name">Thibault FRESCALINE ⏤ 2024</div>
-    <a class="github" href="https://github.com/Thibaultfcl" target="_blank">Github</a>
-    <a class="linkedin" href="https://www.linkedin.com/in/thibault-frescaline-47a9772b8/" target="_blank">Linkedin</a></footer>
-  </footer>
+    <footer>
+      <div class="container">
+        <div class="name">Thibault FRESCALINE ⏤ 2024</div>
+
+        <div id="footer-links">
+          <ul>
+            <li>
+              <a href="https://github.com/Thibaultfcl" target="_blank"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/thibault-frescaline-47a9772b8/"
+                target="_blank"
+                >Linkedin</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
