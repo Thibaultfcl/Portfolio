@@ -4,44 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link href="https://fonts.cdnfonts.com/css/dm-sans" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/dm-sans" />
     <link rel="stylesheet" href="../static/work.css" />
     <link rel="sortcut icon" href="../img/logo.png" />
   </head>
 
-  <nav>
-    <a class="portfolio" href="../tmpl/home.html">Portfolio.</a>
-    <a class="work" href="../tmpl/work.html"><span>Work</span></a>
-    <div class="about">About</div>
-    <div class="contact">Contact</div>
-  </nav>
-
   <body>
-      <div class="Project1">
-        <div class="ProjectName">01 / HANGMAN CLASSIC</div>
-        <div class="Text1">This project brings the classic word-guessing game to your terminal, offering an entertainment and challenging gameplay.<br/>This game was completely developed in go and offer you the chance to stop and save your game whenever you want to.</div>
-        <div class="Text2">This project is the first one I worked on and it served as an introduction to our second work, which was a web version of it.</div>
-        <a class="Link" href="https://github.com/Thibaultfcl/HANGMAN" target="_blank">Github link for more infos ↗</a>
-        <img class="Image" src="../img/Image1.png" />
-        <div class="Seperator"></div>
+    <header>
+      <div class="container">
+        <nav>
+          <a class="logo" href="../tmpl/home.html">Portfolio.</a>
+            <div class="nav-links">
+              <a href="../tmpl/work.html">Work</a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+            </div>
+        </nav>
       </div>
-      <div class="Project2" style="width: 1120px; height: 473px; left: 165px; top: 888px; position: absolute">
+    </header>
+    
+  <div id="content" class="container">
+    <div class="Project1">
+      <a class="ProjectName">01 / HANGMAN CLASSIC</a>
+      <a class="Text1">
+        This project brings the classic word-guessing game to your terminal,
+        offering an entertainment and challenging gameplay.<br />This game was
+        completely developed in go and offer you the chance to stop and save
+        your game whenever you want to.
+      </a>
+      <a class="Text2">
+        This project is the first one I worked on and it served as an
+        introduction to our second work, which was a web version of it.
+      </a>
+      <img class="Image" src="../img/Image1.png" />
+      <a
+        class="Link"
+        href="https://github.com/Thibaultfcl/HANGMAN"
+        target="_blank"
+        >Github link for more infos ↗</a
+      >
+      <div class="Seperator"></div>
+    </div>
+
+      <!-- <div
+        class="Project2"
+        style="
+          width: 1120px;
+          height: 473px;
+          left: 165px;
+          top: 888px;
+          position: absolute;
+        "
+      >
         <div class="ProjectName">02 / HANGMAN WEB</div>
-        <div class="Text1">Hangman Web is a simple web-based Hangman game implemented in Go. It allows users to play Hangman, view the leaderboard, and manage user profiles. The game features different difficulty levels and keeps track of user scores.</div>
-        <div class="Text2">This second project allows me to improve my previous project and to work on new things such as html/css or sql for the database.</div>
-        <a class="Link" href="https://github.com/Thibaultfcl/HANGMAN-WEB" target="_blank">Github link for more infos ↗</a>
+        <div class="Text1">
+          Hangman Web is a simple web-based Hangman game implemented in Go. It
+          allows users to play Hangman, view the leaderboard, and manage user
+          profiles. The game features different difficulty levels and keeps
+          track of user scores.
+        </div>
+        <div class="Text2">
+          This second project allows me to improve my previous project and to
+          work on new things such as html/css or sql for the database.
+        </div>
+        <a
+          class="Link"
+          href="https://github.com/Thibaultfcl/HANGMAN-WEB"
+          target="_blank"
+          >Github link for more infos ↗</a
+        >
         <img class="Image" src="../img/Image2.png" />
         <div class="Seperator"></div>
-      </div>
-      <div class="ProjectIncoming">
+      </div> -->
+
+      <!-- <div class="ProjectIncoming">
         <div class="Rectangle"></div>
         <div class="Text3">MORE PROJECT INCOMING...</div>
       </div>
-  </body>
+    </div> -->
 
-  <footer>
-    <div class="name">Thibault FRESCALINE ⏤ 2024</div>
-    <a class="github" href="https://github.com/Thibaultfcl" target="_blank">Github</a>
-    <a class="linkedin" href="https://www.linkedin.com/in/thibault-frescaline-47a9772b8/" target="_blank">Linkedin</a></footer>
-  </footer>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <a class="name">Thibault FRESCALINE ⏤ 2024</a>
+          <div class="footer-links">
+            <a href="https://github.com/Thibaultfcl" target="_blank">Github</a>
+            <a
+              href="https://www.linkedin.com/in/thibault-frescaline-47a9772b8/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

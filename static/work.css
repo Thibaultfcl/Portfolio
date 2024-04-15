@@ -1,266 +1,162 @@
-body {
-    position: relative;
-    background: #33afa9;
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    margin: 0; padding: 0;
+    font-family: DM Sans;
+    background-color: #33afa9;
+}
+
+/* ##### Header ##### */
+header {
+    padding: 30px;
+    margin-bottom: 30px;
 }
 
 nav {
-    width: 1120px;
-    height: 35px;
-    left: 160px;
-    top: 50px;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
 }
 
-a {
+nav a {
+    color: #17252a;
     text-decoration: none;
 }
 
-span {
+nav a:hover {
+    color: #def2f1;
+}
+
+.logo {
+    align-self: flex-start;
+    margin-left: 10%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav-links {
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+.nav-links a {
+    margin-right: 120px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+nav #active a {
     text-decoration: underline;
 }
+/* ########## */
 
-.about {
-    width: 58.53px;
-    height: 20px;
-    left: 885px;
-    top: 13px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word
-}
 
-.contact {
-    width: 77.38px;
-    height: 20px;
-    left: 1042.62px;
-    top: 13px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
-}
-
-.work {
-    width: 49.6px;
-    height: 20px;
-    left: 735.09px;
-    top: 13px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
-}
-
-.portfolio {
-    width: 131px;
-    height: 35px;
-    padding-right: 1px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    display: inline-flex;
-    color: #17252a;
-    font-size: 32px;
-    font-family: DM Sans;
-    font-weight: 700;
-    line-height: 38.4px;
-    word-wrap: break-word
-}
-
+/* ##### Footer ##### */
 footer {
-    width: 1120px;
-    height: 20px;
-    left: 161px;
-    top: 1600px;
-    position: relative;
+    padding: 30px;
+    margin-top: auto;
 }
 
-.name {
-    width: 300px;
-    height: 20px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
+.footer-content {
+    display: flex;
+    justify-content: space-between;
 }
 
-.github {
-    width: 69px;
-    height: 20px;
-    left: 916px;
-    top: 0px;
-    position: absolute;
+.footer-content a {
     color: #17252a;
-    font-size: 21px;
-    font-family: DM Sans;
-    font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
+    text-decoration: none;
 }
 
-.linkedin {
-    width: 85px;
-    height: 20px;
-    left: 1040px;
-    top: 0px;
-    position: absolute;
-    color: #17252a;
+.footer-content .name {
+    align-self: flex-start;
+    margin-left: 10%;
     font-size: 21px;
-    font-family: DM Sans;
     font-weight: 500;
-    line-height: 25.2px;
-    word-wrap: break-word;
+}
+
+.footer-content .footer-links {
+    align-self: flex-end;
+    margin-right: 10%;
+}
+
+.footer-content .footer-links a {
+    margin-right: 20px;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.footer-content .footer-links a:hover {
+    color: #def2f1;
+}
+/* ########## */
+
+
+/* ##### Content ##### */
+#content {
+    display: flex;
 }
 
 .Project1 {
-    width: 1120px; 
-    height: 473px; 
-    left: 160px; 
-    top: 220px; 
-    position: absolute
-}
-
-.Project2 {
-    width: 1120px; 
-    height: 473px; 
-    left: 160px; 
-    top: 888px; 
-    position: absolute
+    margin-left: 10%;
+    margin-right: auto;
 }
 
 .ProjectName {
-    width: 326.21px; 
-    height: 19px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
     color: #17252A; 
-    font-size: 18px; 
-    font-family: DM Sans; 
-    font-weight: 500; 
-    line-height: 21.87px; 
-    word-wrap: break-word
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .Text1 {
-    width: 356px; 
-    height: 138px; 
-    left: 0px; 
-    top: 44px; 
-    position: absolute; 
     color: #17252A; 
-    font-size: 18px; 
-    font-family: DM Sans; 
-    font-weight: 400; 
-    line-height: 21.87px; 
-    word-wrap: break-word
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .Text2 {
-    width: 315px; 
-    height: 58px; 
-    left: 0px; 
-    top: 213px; 
-    position: absolute; 
     color: #17252A; 
-    font-size: 14px; 
-    font-family: DM Sans; 
-    font-weight: 400; 
-    line-height: 17.01px; 
-    word-wrap: break-word
-}
-
-.Link {
-    width: 326.21px; 
-    height: 20px; 
-    left: 0px; 
-    top: 347px; 
-    position: absolute; 
-    color: #17252A; 
-    font-size: 18px; 
-    font-family: Inter; 
-    font-weight: 500; 
-    text-decoration: underline; 
-    line-height: 21.87px; 
-    word-wrap: break-word
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .Image {
-    width: 575px; 
+    width: 575px;
     height: 323px; 
-    left: 545px; 
-    top: 0px; 
-    position: absolute; 
-    border-radius: 15px
+    border-radius: 15px;
+    border-right: 25%;
+    border-left: auto;
 }
 
 .Seperator {
     width: 1115.06px; 
     height: 0px; 
-    left: 7.91px; 
-    top: 473px; 
-    position: absolute; 
     border: 1.50px #17252A solid
 }
+/* ########## */
 
-.ProjectIncoming {
-    width: 273px; 
-    height: 60px; 
-    left: 576px; 
-    top: 1450px; 
-    position: absolute
+
+.container {
+    width: 100%;
+    margin: 0 auto;
 }
 
-.Rectangle {
-    width: 273px; 
-    height: 60px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    opacity: 0.25; 
-    background: #DEF2F1; 
-    border-radius: 15px
-}
+/* @media all and (max-width: 860px) {
+    .container {
+        width: 500px;
+    } 
+} */
 
-.Text3 {
-    width: 258px; 
-    height: 22px; 
-    left: 15px; 
-    top: 20px; 
-    position: absolute; 
-    color: #17252A; 
-    font-size: 18px; 
-    font-family: DM Sans; 
-    font-weight: 500; 
-    line-height: 21.87px; 
-    word-wrap: break-word
-}
+/* @media all and (max-width: 560px) {
+    .container {
+        width: 100%;
+    }
+} */
+
+/* @media all and (max-width: 360px) {
+    header .container { text-align: center; }
+    nav { float: none; }
+    
+    footer .container { text-align: center; }
+    footer #footer-links { float: none; text-align: center; }
+} */
