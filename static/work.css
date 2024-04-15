@@ -37,7 +37,8 @@ nav a:hover {
 
 .nav-links {
     align-self: flex-end;
-    margin-right: 10%;
+    position: relative;
+    right: 4%;
 }
 
 .nav-links a {
@@ -46,7 +47,7 @@ nav a:hover {
     font-weight: 500;
 }
 
-nav #active a {
+nav #active {
     text-decoration: underline;
 }
 /* ########## */
@@ -95,11 +96,34 @@ footer {
 /* ##### Content ##### */
 #content {
     display: flex;
+    flex-direction: column;
 }
 
 .Project1 {
-    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 11.5%;
     margin-right: auto;
+}
+
+.Project2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12%;
+    margin-left: 11.5%;
+    margin-right: auto;
+}
+
+.ProjectIncoming {
+    margin-top: 12%;
+    margin-bottom: 5%;
+    text-align: center;
+    position: relative;
+}
+
+.Text {
+    max-width: 30%;
 }
 
 .ProjectName {
@@ -111,27 +135,58 @@ footer {
 .Text1 {
     color: #17252A; 
     font-size: 18px;
-    font-weight: 400;
 }
 
 .Text2 {
     color: #17252A; 
     font-size: 14px;
-    font-weight: 400;
+}
+
+.Text3 {
+    color: #17252A;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
 }
 
 .Image {
     width: 575px;
     height: 323px; 
     border-radius: 15px;
-    border-right: 25%;
-    border-left: auto;
+    position: relative;
+    left: 40%;
+}
+
+.Image:hover {
+    scale: 1.1;
+}
+
+.Link {
+    color: #17252A; 
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .Seperator {
-    width: 1115.06px; 
+    position: relative;
+    top: 25%;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 200%;
     height: 0px; 
-    border: 1.50px #17252A solid
+    border: 1px #17252A solid;
+}
+
+.Rectangle {
+    width: 273px; 
+    height: 60px; 
+    opacity: 0.25; 
+    background: #DEF2F1; 
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /* ########## */
 

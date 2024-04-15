@@ -37,7 +37,8 @@ nav a:hover {
 
 .nav-links {
     align-self: flex-end;
-    margin-right: 10%;
+    position: relative;
+    right: 4%;
 }
 
 .nav-links a {
@@ -46,7 +47,7 @@ nav a:hover {
     font-weight: 500;
 }
 
-nav #active a {
+nav #active {
     text-decoration: underline;
 }
 /* ########## */
