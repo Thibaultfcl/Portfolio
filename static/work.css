@@ -196,22 +196,22 @@ footer {
     margin: 0 auto;
 }
 
-/* @media all and (max-width: 860px) {
+@media all and (max-width: 860px) {
     .container {
         width: 500px;
     } 
-} */
+}
 
-/* @media all and (max-width: 560px) {
+@media all and (max-width: 560px) {
     .container {
         width: 100%;
     }
-} */
+}
 
-/* @media all and (max-width: 360px) {
+@media all and (max-width: 360px) {
     header .container { text-align: center; }
     nav { float: none; }
     
     footer .container { text-align: center; }
     footer #footer-links { float: none; text-align: center; }
-} */
+}
